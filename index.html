@@ -4,12 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Doto:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
     <title>SVG-CSS-animation</title>
 </head>
 
 <body>
+
+    <section class="main-container">
+
+        <header class="title">
+            <h1 class="animate__animated animate__flash animate__infinite">You are invited !</h1>
+        </header>
+        <section class="sub-container">
+            <p>To</p>
+            <h1 class="event animate__animated animate__heartBeat animate__infinite">Birthday Party</h1>
+            <h3> On Friday Feb 14th </h3>
+            <section class="time">
+                <!-- SVG Clock-->
+                <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+                    <circle r="45" cx="50" cy="50" fill="purple" />
+                    <polyline points=" 30,50 50,50 50,30" stroke="white" stroke-width="7" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg> 5pm onwards
+            </section>
+            <section class="place">
+                <img width="150" height="150" class="vector" src="/images/house.svg" alt="house svg image"> At 123
+                myhouse
+            </section>
+            <section class="rsvp">
+                <svg width="150" height="150" class="svg-rsvp">
+                    <use href="/images/envelope.svg#envelope" />
+                </svg> RSVP to mail@mail.com
+            </section>
+        </section>
+    </section>
+
+
+
+
 
 </body>
 
