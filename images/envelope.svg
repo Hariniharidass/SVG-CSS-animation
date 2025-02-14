@@ -1,0 +1,11 @@
+<!-- SVG Envelope
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="envelope" viewBox="0 0 195.74 129.42">
+        <polyline points="10,10 10,100 110,100 110,10 10,10" stroke="black" stroke-width="10" fill="none"
+            stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="10,10 60,60 110,10" stroke="black" stroke-width="10" fill="none" stroke-linecap="round"
+            stroke-linejoin="round" />
+    </symbol>
+</svg>
