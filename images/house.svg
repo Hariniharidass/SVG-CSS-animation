@@ -1,11 +1,11 @@
 <!-- SVG House-->
 
 
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
 
-    <polyline points=" 10,60 80,10 150,60" stroke="black" stroke-width="10" fill="none" stroke-linecap="round"
+    <polyline points=" 10,60 80,10 150,60" stroke="#4e46e2" stroke-width="10" fill="none" stroke-linecap="round"
         stroke-linejoin="round" />
-    <polyline points=" 30,70 30,140 60,140 60,105 100,105 100,140 130,140 130,70" stroke="black" stroke-width="10"
+    <polyline points=" 30,70 30,140 60,140 60,105 100,105 100,140 130,140 130,70" stroke="#4e46e2" stroke-width="10"
         fill="none" stroke-linecap="round" stroke-linejoin="round" />
 
 </svg>
